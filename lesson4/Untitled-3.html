@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    .list1{
+
+        list-style-type: lower-alpha;
+        background-color: darkgoldenrod;
+
+    }
+
+    
+    li{
+        background-color: crimson;
+    }
+
+    .list4{
+
+        list-style-type: none;
+
+    }
+    .list>li>::before{
+        content: '\272F';
+
+    }
+
+    .list2>li{
+      list-style-image: url(https://memepedia.ru/wp-content/uploads/2021/05/amogus.png);
+
+    }
+
+</style>
+<body>
+    <!--lists-->
+    <h2>something</h2>
+    <ol class="list1">
+        <li>do smth1</li>
+        <li>so smth2</li>
+    </ol>
+
+    <ul class="list2">
+        <li>sus</li>
+        <li>not sus</li>
+        <li>the most sus ever existed</li>
+    </ul>
+
+    <dl class="list3">
+        <dt>web</dt>
+        <dd>AAAAAAAAAAAAA</dd>
+        <dt>desktop</dt>
+        <dd>guy ur muted lol</dd>
+    </dl>
+
+    <ul class="list4">
+        <li>line1
+            <ul>
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+            </ul>
+        </li>
+        <li>line2<ul>
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+        </ul></li>
+        <li>line3<ul>
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+        </ul></li>
+    </ul>
+</body>
+</html>
